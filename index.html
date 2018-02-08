@@ -7,51 +7,52 @@
   <title>Newsletter</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="css/newsletter.css">
 </head>
 <body>
   <div class="container">
     <div class="row">
       <div class="col">
-        <form action="">
+        <form action="" id="formulario">
           <div class="form-row mt-5 mb-5 text-center">
             <p class="h2 "> Llena el formulario del Newsletter </p>
           </div>
-          <div class="form-row text-center mb-4">
+          <div class="form-row text-center mb-4" id="fila-1">
             <div class="col col-sm-4">
               <label class="h4" for="correo"> Mi correo es </label>
             </div>
             <div class="col col-sm-6">
-              <input class="form-control" type="text" id="correo">
+              <input class="form-control" type="text" id="correo" name="correo">
             </div>
           </div>
-          <div class="form-row text-center mb-4">
+          <div class="form-row text-center mb-4" id="fila-2">
             <div class="col col-sm-4">
               <label class="h4" for="nombre"> Mi nombre es</label>
             </div>
             <div class="col col-sm-6">
-              <input type="text" class="form-control" id="nombre">
+              <input type="text" class="form-control" id="nombre" name="nombre">
             </div>
           </div>
           <!--.form-row.text-center.mb-4>(.col*2)-->
-          <div class="form-row text-center mb-4">
+          <div class="form-row text-center mb-4" id="fila-3">
             <div class="col col-sm-4">
               <label for="numero" class="h4">Tengo </label>
             </div>
             <div class="col col-sm-2">
-              <input type="text" class="form-control" id="numero">
+              <input type="text" class="form-control" id="numero" name="numero">
             </div>
             <div class="col col-sm-3">
               <label for="numero" class="h4">perrines</label>
             </div>
           </div>
           <!--.form-row.text-center.mb-4-->
-          <div class="form-row text-center mb-4">
+          <div class="form-row text-center mb-4" id="fila-4">
             <p>Aqui van los inputs</p>
           </div>
-          <div class="form-row text-center mb-4">
+          <div class="form-row text-center mb-4" id="fila-5">
               <div class="col">
                 <div class="form-group">
-                  <button class="btn btn-success btn-lg">Enviar</button>
+                  <button class="btn btn-success btn-lg" id="boton" type="submit">Enviar</button>
                 </div>
               </div>
           </div>
@@ -65,5 +66,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/newsletter.js"></script>
 </body>
 </html>
